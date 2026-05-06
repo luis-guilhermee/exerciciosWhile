@@ -79,6 +79,7 @@ public class Desafio {
 				}
 				System.out.println("Sua nota foi: " + nota1);
 				media = nota2 / usuarios;
+				System.out.println("O número de usuários foi: " + usuarios);
 				System.out.println("A média das notas foi: " + media);
 				System.out.println("Deseja repetir o processo? (sim ou nao)");
 				resposta2 = ler.next();
@@ -86,6 +87,7 @@ public class Desafio {
 				System.out.println("Fim da correção");
 				if (usuarios > 0) {
 					media = nota2 / usuarios;
+					System.out.println("O número de usuários foi: " + usuarios);
 					System.out.println("A média das notas foi: " + media);
 				}
 			}
