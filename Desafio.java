@@ -6,7 +6,7 @@ public class Desafio {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		int nota1 = 0, nota2 = 0, media, usuarios = 0;
+		double nota1 = 0, nota2 = 0, media, usuarios = 0;
 		String resposta1 = "", resposta2 = "", q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, c1 = "a", c2 = "b", c3 = "c",
 				c4 = "d", c5 = "e", c6 = "e", c7 = "d", c8 = "c", c9 = "b", c10 = "a";
 
