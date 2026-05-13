@@ -6,7 +6,7 @@ public class TesteArray {
 
 	public static void main(String[] args) {
 		Scanner ler = new Scanner(System.in);
-		int nota1 = 0, nota2 = 0, media, usuarios = 0;
+		double nota1 = 0, nota2 = 0, media, usuarios = 0;
 		String resposta1 = "", resposta2 = "";
 		String gabarito[] = { "a", "b", "c", "d", "e", "e", "d", "c", "b", "a" };
 		String[] resposta = new String[11];
